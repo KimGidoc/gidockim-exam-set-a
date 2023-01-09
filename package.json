@@ -1,0 +1,12 @@
+{
+  "name": "gidockimberly-it-elec",
+  "version": "1.0.0",
+  "description": "Create a node.js application that utilizes a file as data input see.Your app should generate and process from data input see.Modify ypur package.json.",
+  "main": "exam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node exam"
+  },
+  "author": "gidockimberly",
+  "license": "ISC"
+}
