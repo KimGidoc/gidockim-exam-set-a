@@ -8,5 +8,8 @@
     "start": "node exam"
   },
   "author": "gidockimberly",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1"
+  }
 }
