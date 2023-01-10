@@ -1,5 +1,4 @@
 const fs = require('fs')
-
 const add = function(note=[], oldnote){
     let finalNote = JSON.parse(oldnote)
     finalNote.push(note)

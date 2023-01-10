@@ -1,26 +1,24 @@
 const read = require('./read')
-const emp = require('./emp')
+const employee = require('./employee')
 const add = require('./add')
 const present = require('./present')
 
-const cmd = process.argv
+const data = process.argv
 
 var note = {}
-
-if (cmd[2] == 'add')
+if (data[2] == 'add')
     note = {
-        employee: cmd [3],
-        role: cmd[2],
-        department: cmd[5]
+        employee: data [3],
+        role: data[4],
+        department: data[5]
     }
 
     var oldNote = read()
     add(note, oldnote)
 
-if (cmd [2] == 'read'){
+if (data [2] == 'read'){
     present(read())
 }
 if (data [2] == 'employee'){
     employee(read())
 }
-
